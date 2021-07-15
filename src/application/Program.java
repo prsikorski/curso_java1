@@ -8,6 +8,12 @@ public class Program {
 
 		Scanner sc =  new Scanner(System.in);
 		
+		System.out.println("Escreva algo  a ser impresso na tela: ");
+		String frase = sc.nextLine();
+		System.out.println(frase);
+		
+		
+		
 		sc.close();
 	}
 
